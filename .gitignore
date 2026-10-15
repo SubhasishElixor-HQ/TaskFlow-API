@@ -1,0 +1,59 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build and temporary files
+build/
+tmp/
+temp/
+*.tmp
+*.log
+
+# IDEs and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+backups/
+*.dump
+*.sql.gz
+
+# Secrets and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Test artifacts
+playwright-report/
+test-results/
